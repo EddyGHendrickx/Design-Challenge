@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Medical form</title>
+    <link href="style.css"
+          rel="stylesheet"
+          type="text/css"/>
+    <meta charset="UTF-8">
+</head>
+<body>
+    <h1>Emergency Contact and Medical Information</h1>
+<form>
+
+    <section id="Section1">
+        <div class="Aboveform">Name</div>
+        <input type="text" name="firstname">
+        <input type="text" name="Lastname">
+        <div class="Belowform">Name</div>
+    </section>
+
+    <section id="Section2">
+
+        <section id="Section21">
+
+            <div id="gender" class ="Aboveform">Gender</div>
+
+                <select>
+
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                    <option value="Other">Other</option>
+                    <option value="Prefer not to say">Prefer not to say</option>
+
+                </select>
+        </section>
+
+        <section id="Section22">
+
+            <div id="DOB" class ="Aboveform">Date of birth</div>
+
+             <input type="date" name="Day">
+        </section>
+    </section>
+
+    <div id="h2"><h2>Emergency Contact</h2></div>
+
+    <section id="Section3">
+
+
+        <section id="Section31">
+                <section id="Section311">
+                    <section id="3111">
+                        <div class="Aboveform">Name</div>
+
+
+                        <input type="text" name="firstname" id="contact">
+                        <input type="text" name="Lastname" content="Last name">
+                    </section>
+                    <section id ="3112">
+                        <span class="Belowform">First</span>
+                        <span class="Belowform">Last</span>
+                    </section>
+                </section>
+
+                <section id="Section312">
+                    <div class="Aboveform">Relationship</div>
+                    <input type="text" name="Relationship">
+                </section>
+
+        </section>
+
+        <section id="Section32">
+
+            <input type="text" name="First adress line">
+            <div class="Belowform">Adress</div>
+
+            <input type="text" name="Second adress">
+            <div class="Belowform">Second adress</div>
+
+        </section>
+
+        <section id="Section33">
+
+            <section id="Section331">
+                <input type="text" name="City">
+                <div class="Belowform">City</div>
+
+                <input type="text" name="Postal code">
+                <div class="Belowform">Postal code</div>
+            </section>
+            <section id="Section332">
+                <input type="text" name="Country">
+                <div class="Belowform">Country</div>
+
+                <input type="text" name="Province">
+                <div class="Belowform">State / Province / Region</div>
+            </section>
+
+        </section>
+
+    </section>
+
+    <section id="Section4">
+
+
+        <input type="text" name="Hospital">
+        <div class="Belowform">Hospital / Clinic Preference</div>
+
+        <input type="text" name="First adress line">
+        <div class="Belowform">Insurance Company</div>
+
+        <input type="text" name="First adress line">
+        <div class="Belowform">Policy Number</div>
+
+        <input type="text" name="First adress line">
+        <div class="Belowform">Physician's Name</div>
+
+        <input type="text" name="First adress line">
+        <div class="Belowform">Phone Number</div>
+
+        <input type="text" name="First adress line">
+        <div class="Belowform">Allergies / Special Health</div>
+
+    </section>
+    <input type="submit" value="Submit" id="submit">
+</form>
+</body>
+</html>

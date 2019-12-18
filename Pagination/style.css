@@ -1,0 +1,122 @@
+html {
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+#Top {
+        font-weight: bolder;
+        text-transform: uppercase;
+        display: flex;
+        flex-direction: row-reverse;
+}
+
+h2 {
+    font-style: italic;
+    font-size: medium;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+.Person {
+    text-align: center;
+    padding-bottom: 4em;
+    margin: 1em;
+}
+
+.Header:hover {
+    background-color: #7FBB48;
+}
+
+.Header {
+    padding: 1em;
+}
+
+.Description {
+    text-align: center;
+}
+
+.NameOfEm {
+    font-weight: bolder;
+}
+
+.FunctionOfEm {
+    font-weight: lighter;
+    font-style: italic;
+}
+
+#h3 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#Row1 {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    margin: 1em;
+}
+#Row2 {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    margin: 1em;
+}
+#Row3 {
+     display: flex;
+     flex: 1;
+     flex-direction: row;
+     margin: 1em;
+ }
+#Row4 {
+      display: flex;
+      flex: 1;
+      flex-direction: row;
+      margin: 1em;
+  }
+
+#Largebox {
+    text-align: center;
+    background-color: #7FBB48;
+    padding: 5em;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+#Largebox h1 {
+    text-transform: uppercase;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: lightgray;
+    padding: 1em;
+}
+
+#Footer {
+    padding: 1em;
+    align-items: end;
+    font-size: smaller;
+    display: inline;
+    padding-right: 2em;
+}
+#Copyright {
+    padding: 1em;
+    display: inline;
+    align-self: end;
+    font-size: smaller;
+}
+
+#Persons {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+}

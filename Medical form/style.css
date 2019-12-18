@@ -1,0 +1,143 @@
+body {
+    background-color: aliceblue;
+    background-size: cover;
+    width: 90%;
+}
+
+article {
+    display: flex;
+    margin-bottom: 1em;
+    padding-bottom: 1em;
+}
+
+h1 {
+    background-color: grey;
+    margin: 1em;
+}
+
+h2 {
+    display: block;
+    width: auto;
+}
+
+.Aboveform {
+    font-weight: bold;
+    padding-bottom: 1em;
+}
+
+.Belowform {
+    font-style: italic;
+    margin: 5px;
+    font-size: smaller;
+}
+
+#emergencycontact {
+    border-top-style: dotted;
+    border-top: 1px, black;
+    display: block;
+}
+
+#Section1 {
+    padding: 1em;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    border-bottom: 1px, black;
+    border-bottom-style: dotted;
+    border-top: 1px, black;
+    border-top-style: dotted;
+}
+
+#Section2 {
+    padding: 1em;
+    margin-bottom: 1em;
+    border-bottom: 1px, black;
+    border-bottom-style: dotted;
+    display: flex;
+}
+
+#Section21 {
+    display: flex;
+    flex-direction: column;
+    margin-right: 1em;
+}
+
+#Section22 {
+    display: flex;
+    flex-direction: column;
+}
+
+#Section3 {
+    margin-bottom: 1em;
+    padding-bottom: 1em;
+    border-bottom: 1px, black;
+    border-bottom-style: dotted;
+    display: flex;
+    flex-direction: column;
+}
+
+#Section31 {
+    padding: 1em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+#Section3112 {
+    display: inline;
+    flex-direction: row;
+}
+
+#Section312 {
+    display: flex;
+    flex-direction: column;
+    padding-left: 1em;
+}
+
+#Section32 {
+
+    padding: 1em;
+}
+
+#Section33 {
+    display: flex;
+    padding: 1em;
+}
+
+#Section331 {
+    padding-right: 1em;
+}
+
+#Section4 {
+    margin-bottom: 1em;
+    padding: 1em;
+    border-bottom: 1px, black;
+    border-bottom-style: dotted;
+    display: flex;
+    flex-direction: column;
+}
+
+#gender {
+    display: inline;
+    padding-bottom: 1em;
+
+}
+
+#DOB {
+    display: inline;
+}
+
+#contact {
+    margin-right: 1em;
+}
+
+
+
+#adress {
+    display: block;
+}
+
+
+
+#submit {
+    margin: 1em;
+}
